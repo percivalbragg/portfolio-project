@@ -1,10 +1,12 @@
 import './App.css';
+// import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <>
-      <h2>Portfolio Project start ...</h2>
+      <Navbar />
     </>
   );
 }
