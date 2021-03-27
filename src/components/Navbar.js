@@ -1,5 +1,11 @@
 import React from 'react';
-import logo from '../percivalbragg - online-logos_transparent_sized.png'
+import logo from '../images/percivalbragg - online-logos_transparent_sized.png'
+
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { fas } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+// library.add(fas);
 
 const Navbar = () => {
     return (
@@ -10,7 +16,7 @@ const Navbar = () => {
                     className="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <FontAwesomeIcon icon={faBars} style={{ color: '#fff' }} />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
