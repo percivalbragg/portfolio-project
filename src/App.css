@@ -3,12 +3,18 @@
 :root {
   --primary-white: #fff;
   --primary-orangered: #ff4500;
+  --primary-orange: #fa9e53;
   --primary-dark: rgba(255, 255, 255, 0);
 }
 
 body {
   font-family: 'Roboto Condensed' sans-serif;
 }
+
+.heading {
+  text-transform: uppercase;
+}
+
 /***************************NAVBAR******************************/
 .logo {
   width: 16.25rem;
@@ -42,4 +48,14 @@ nav ul li {
 .navbar-nav > li > a.active:focus,
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orangered);
+}
+
+/************************ABOUTME***********************************/
+.about {
+  background: linear-gradient(
+    to bottom left,
+    var(--primary-white),
+    var(--primary-orange)
+  );
+  color: #000;
 }
