@@ -1,9 +1,6 @@
 import React from 'react';
-import logo from '../images/percivalbragg - online-logos_transparent_sized.png'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-
+import logo from '../images/logo.png'
+import * as FaIcons from "react-icons/fa";
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark" id="home">
@@ -13,7 +10,7 @@ const Navbar = () => {
                     className="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <FontAwesomeIcon icon={faBars} style={{ color: '#fff' }} />
+                    <FaIcons.FaBars style={{ color: '#fff' }} />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
@@ -24,7 +21,7 @@ const Navbar = () => {
                             <a className="nav-link" href="#about">about me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">experience</a>
+                            <a className="nav-link" href="#experience">experience</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">major strengths</a>

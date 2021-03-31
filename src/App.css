@@ -52,10 +52,10 @@ nav ul li {
 
 /************************ABOUTME***********************************/
 .about {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom left,
     var(--primary-white),
     var(--primary-orange)
-  );
+  ); */
   color: #000;
 }
