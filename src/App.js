@@ -1,8 +1,8 @@
 import './App.css';
-// import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
+import MajorStrengths from './components/MajorStrengths';
 import ProfessionalExperience from './components/ProfessionalExperience';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <>
       <Navbar />
       <AboutMe />
+      <MajorStrengths />
       <ProfessionalExperience />
     </>
   );
