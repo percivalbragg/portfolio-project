@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import MajorStrengths from './components/MajorStrengths';
 import ProfessionalExperience from './components/ProfessionalExperience';
+import Education from './components/Education';
+import Certification from './components/Certification';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <AboutMe />
       <MajorStrengths />
       <ProfessionalExperience />
+      <Education />
+      <Certification />
     </>
   );
 }

@@ -19,20 +19,23 @@ const Navbar = () => {
                                 <a className="nav-link" aria-current="page" href="#home">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#about">about me</a>
+                                <a className="nav-link" href="#about">about</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#strengths">major strengths</a>
+                                <a className="nav-link" href="#strengths">strengths</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#experience">experience</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href="#education">education</a>
+                            </li>
+                            {/* <li className="nav-item">
                                 <a className="nav-link" href="#">photos</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">contact</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
